@@ -1,0 +1,153 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+header {
+         background-color: #333;
+         color: #fff;
+         width: 100%;
+         position: fixed;
+         top: 0;
+         z-index: 999;
+     }
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+        margin: 20px auto;
+        max-width: 600px;
+        padding: 0 20px;
+    }
+    .item {
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+    }
+    .item:last-child {
+        border-bottom: none;
+    }
+    .item img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    .item .name {
+        font-weight: bold;
+    }
+    .item .price {
+        margin-left: auto;
+    }
+    .total {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+main {
+    padding: 20px;
+}
+
+section.hero {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    margin-top:100px ;
+}
+
+.section.hero h2 {
+    font-size: 2em;
+}
+
+.section.hero p {
+    font-size: 1.2em;
+}
+
+.button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+section.featured-products {
+    margin-top: 50px;
+}
+
+.product {
+    display: inline-block;
+    width: 200px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.product img {
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.container{
+    margin-top: 200px;
+}button {
+     padding: 10px 20px;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+     margin-bottom: 10px;
+ }
+
+
+button[type="submit"] {
+    background-color: #28a745;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+button[name="emptyCart"] {
+    background-color: #dc3545;
+}
+
+button[name="emptyCart"]:hover {
+    background-color: #c82333;
+}

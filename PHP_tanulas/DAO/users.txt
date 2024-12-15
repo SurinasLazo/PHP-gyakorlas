@@ -1,0 +1,6 @@
+asd,asd@asd.com,asd
+username,tesztElek1@tesztElek1.com,tesztElek1
+tesztElek420,tesztElek420@tesztElek420.com,tesztElek420
+tesztElek6,tesztElek6@tesztElek6.com,tesztElek6UJUJABB,,Gyula Budapest krt 1,../misc/Profiles/Csillámló ing.jpg
+Teszt7,Teszt7@Teszt7.com,Teszt7,12345677,MUKODIK KOSAR UTAN IS,../misc/Profiles/ait2.jpg
+Username,user@mail.com,Password,06202171103,Teszt Adress,../misc/Profiles/Fashionhubceo_Username.jpg
